@@ -2,12 +2,10 @@
 #include <iostream>
 using namespace std;
 
-bool checkPrime(int n){ 
-
+bool checkPrime(int n){
     int cnt = 0;
-
-    for(int i = 1; i*i<=n; i++){ 
-        if(n % i == 0){ 
+    for(int i = 1; i <= sqrt(n); i++){ 
+        if(n % i == 0){
             cnt = cnt + 1;
             if(n / i != i){
                 cnt = cnt + 1;
@@ -22,15 +20,13 @@ bool checkPrime(int n){
     }
 }
 int main() {
-    int n ;
-    cin>>n;
+    int n = 1483;
     bool isPrime = checkPrime(n);
     if(isPrime){
         cout << n << " is a prime number." << endl;
     } else {
         cout << n << " is not a prime number." << endl;
     }
-
     return 0;
 }
                                 

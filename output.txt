@@ -1,1 +1,1 @@
-smallest element in the array is : 4
+Yes

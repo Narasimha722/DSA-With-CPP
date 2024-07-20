@@ -12,8 +12,8 @@ bool isSorted(int arr[], int n) {
 
 int main() {
 
-  int arr[] = {1, 2, 5, 4, 5}, n = 5;
+  int arr[] = {1, 2, 3, 4, 5}, n = 5;
 
-  printf("%s", isSorted(arr, n) ? "True" : "False");
+  cout << (isSorted(arr, n) ? "Yes" : "No") << endl;
 
 }

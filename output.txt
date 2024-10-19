@@ -1,1 +1,1 @@
-400
+given num presnt at this index: 3

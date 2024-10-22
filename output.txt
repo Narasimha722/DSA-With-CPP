@@ -1,1 +1,1 @@
-5 is a prime number.
+GCD of 3 and 9 is: 3

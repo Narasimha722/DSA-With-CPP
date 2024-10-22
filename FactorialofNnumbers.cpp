@@ -8,7 +8,8 @@ int factorial(int X) {
    return ans;
 }
 int main() {
-   int X = 5;
+   int X ;
+   cin>>X;
    int result = factorial(X);
    cout << "The factorial of " << X << " is " << result;
 }

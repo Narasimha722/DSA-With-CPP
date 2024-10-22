@@ -20,7 +20,8 @@ bool checkPrime(int n){
     }
 }
 int main() {
-    int n = 1483;
+    int n ;
+    cin>>n;
     bool isPrime = checkPrime(n);
     if(isPrime){
         cout << n << " is a prime number." << endl;

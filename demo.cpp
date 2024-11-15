@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+<<<<<<< HEAD
 #include<algorithm>
 using namespace std;
 
@@ -52,4 +53,14 @@ int main() {
     int gcd = findGcd(n1, n2);
     cout << "GCD of " << n1 << " and " << n2 << " is: " << gcd << endl;
     return 0;
+=======
+
+using namespace std;
+
+int main(){
+    int a;
+    cin>>a;
+    cout<<a;
+    
+>>>>>>> 7e95ae20c3cdb8634c2cb39216f00a5f5dc28050
 }

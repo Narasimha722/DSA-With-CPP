@@ -2,8 +2,13 @@
 using namespace std;
 
 void pattern1(int n){
+<<<<<<< HEAD
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
+=======
+    for(int i=0;i<=n;i++){
+        for(int j=0;j<=n;j++){
+>>>>>>> 7e95ae20c3cdb8634c2cb39216f00a5f5dc28050
             cout<<"*";
         }
         cout<<endl;
@@ -72,6 +77,7 @@ void pattern7(int n){
     }
 }
 int main(){
+<<<<<<< HEAD
     int test_case;
     cin>>test_case;
     for(int i=0;i<test_case;i++){
@@ -81,3 +87,9 @@ int main(){
 
     }
 }
+=======
+    int n;
+    cin>>n;
+    pattern7(n);
+}
+>>>>>>> 7e95ae20c3cdb8634c2cb39216f00a5f5dc28050

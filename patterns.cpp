@@ -1,95 +1,98 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void pattern1(int n){
-<<<<<<< HEAD
+void print1(int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-=======
-    for(int i=0;i<=n;i++){
-        for(int j=0;j<=n;j++){
->>>>>>> 7e95ae20c3cdb8634c2cb39216f00a5f5dc28050
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-}
-
-void pattern2(int n){
-    for(int i=0;i<=n;i++){
-        for(int j=0;j<=i;j++){
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-}
-
-void pattern3(int n){
-    for(int i=0;i<=n;i++){
-        for(int j=0;j<=i;j++){
-            cout<<j;
-        }
-        cout<<endl;
-    }
-}
-
-void pattern4(int n){
-    for(int i=0;i<=n;i++){
-        for(int j=0;j<=i;j++){
-            cout<<i;
-        }
-        cout<<endl;
-    }
-}
-
-void pattern5(int n){
-    for(int i=0;i<=n;i++){
-        for (int j =n; j>i; j--){
             cout<<" * ";
         }
         cout<<endl;
     }
 }
 
-void pattern6(int n){
-    for(int i=0;i<=n;i++){
-        for (int j =n; j>i; j--){
-            cout <<n-j+1<<" ";
+void print2(int n){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<" * ";
         }
         cout<<endl;
     }
 }
 
-void pattern7(int n){
-    for(int i=0;i<n;i++){
-        for (int j =0; j<n-i-1; j++)
-        {
-            cout <<" ";
+void print3(int n){
+    for(int i=1;i<n;i++){
+        for(int j=1;j<=i;j++){
+            cout<<j;
         }
-        for(int j=0;j< 2*i+1;j++){
+        cout<<endl;
+    }
+}
+
+void print4(int n){
+    for(int i=1;i<n;i++){
+        for(int j=1;j<=i;j++){
+            cout<<i;
+        }
+        cout<<endl;
+    }
+}
+
+void print5(int n){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n-i+1;j++){
+            cout<<" * ";
+        }
+        cout<<endl;
+    }
+}
+
+void print6(int n){
+    for(int i=1;i<n;i++){
+        for(int j=1;j<n-i+1;j++){
+            cout<<j;
+        }
+        cout<<endl;
+    }
+}
+
+void print7(int n){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n-i-1;j++){
+            cout<<" ";
+        }
+        for(int j=0;j<2*i+1;j++){
             cout<<"*";
         }
-         for (int j =0; j<n-i-1; j++)
-        {
-            cout <<" ";
+        for(int j=0;j<n-i-1;j++){
+            cout<<" ";
         }
-        cout << endl;
+        cout<<endl;
     }
 }
+
+void print8(int n){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<i;j++){
+            cout<<" ";
+        }
+        for(int j=0;j<2*n-(2*i+1);j++){
+            cout<<"*";
+        }
+        for(int j=0;j<i;j++){
+            cout<<" ";
+        }
+        cout<<endl;
+    }
+}
+
 int main(){
-<<<<<<< HEAD
-    int test_case;
-    cin>>test_case;
-    for(int i=0;i<test_case;i++){
+    int t;
+    cin>>t;
+    for(int i=0;i<t;i++){
         int n;
         cin>>n;
-        pattern1(n);
-
+        print8(n);
     }
+    
 }
-=======
-    int n;
-    cin>>n;
-    pattern7(n);
-}
->>>>>>> 7e95ae20c3cdb8634c2cb39216f00a5f5dc28050
+

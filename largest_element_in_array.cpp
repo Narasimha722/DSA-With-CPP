@@ -1,13 +1,11 @@
-
 #include <bits/stdc++.h>
- using namespace std;
+using namespace std;
 
 //this is normal / brute force
 int sortArr(vector<int>& arr) {
     sort(arr.begin(),arr.end());
     return arr[arr.size()-1];
 }
-
 //this is optimal approach
 int findLargestElement(int arr[], int n) {
  

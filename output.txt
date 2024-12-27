@@ -1,1 +1,1 @@
-Max profit is: 5
+22 12 6 

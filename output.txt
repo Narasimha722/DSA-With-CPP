@@ -1,1 +1,1 @@
-22 12 6 
+The longest consecutive sequence is 5

@@ -1,14 +1,10 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 
 vector<vector<int>> zeroMatrix(vector<vector<int>> &matrix, int n, int m) {
 
-    // int row[n] = {0}; --> matrix[..][0]
-    // int col[m] = {0}; --> matrix[0][..]
-
     int col0 = 1;
-    // step 1: Traverse the matrix and
+    // Step 1: Traverse the matrix and
     // mark 1st row & col accordingly:
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
@@ -37,7 +33,7 @@ vector<vector<int>> zeroMatrix(vector<vector<int>> &matrix, int n, int m) {
         }
     }
 
-    //step 3: Finally mark the 1st col & then 1st row:
+    // Step 3: Finally mark the 1st col & then 1st row:
     if (matrix[0][0] == 0) {
         for (int j = 0; j < m; j++) {
             matrix[0][j] = 0;
@@ -59,13 +55,12 @@ int main()
     int m = matrix[0].size();
     vector<vector<int>> ans = zeroMatrix(matrix, n, m);
 
-    cout << "The Final matrix is: n";
+    cout << "The Final matrix is: " << endl;
     for (auto it : ans) {
         for (auto ele : it) {
             cout << ele << " ";
         }
-        cout << "n";
+        cout << endl;
     }
     return 0;
 }
-

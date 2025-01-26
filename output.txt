@@ -1,1 +1,1 @@
-The upper bound is the index: 3
+The index is: 3

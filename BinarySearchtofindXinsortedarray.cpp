@@ -7,7 +7,7 @@ int binarySearch(vector<int>& nums, int target) {
 
     // Perform the steps:
     while (low <= high) {
-        int mid = (low + high) / 2;
+        int mid = (low+high)/2;
         if (nums[mid] == target) return mid;
         else if (target > nums[mid]) low = mid + 1;
         else high = mid - 1;

@@ -1,0 +1,16 @@
+{
+    "configurations": [
+      {
+        "name": "Win32",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "C:/msys64/mingw64/include/c++/13.1.0"  // Adjust the path based on your GCC version
+        ],
+        "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+        "intelliSenseMode": "windows-gcc-x64",
+        "cppStandard": "c++17"
+      }
+    ],
+    "version": 4
+  }
+  

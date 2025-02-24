@@ -17,7 +17,6 @@ int getLongestSubarray(vector<int>& a, long long k) {
             sum -= a[left];
             left++;
         }
-
         // if sum = k, update the maxLen i.e. answer:
         if (sum == k) {
             maxLen = max(maxLen, right - left + 1);

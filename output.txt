@@ -1,1 +1,1 @@
-This is the answer for variant 1: YES
+The index is: 3

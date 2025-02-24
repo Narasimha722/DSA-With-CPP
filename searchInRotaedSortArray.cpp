@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int search(vector<int>& arr, int n, int k) {

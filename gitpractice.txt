@@ -1,0 +1,9 @@
+create repo in your profile
+protect main branch and add 2 approvals required to merge PR's
+Create feature branch in local
+add some code changes into that branch
+commit and push changes into that branch
+raise PR into main branch
+add reviewers
+
+
